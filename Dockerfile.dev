@@ -5,7 +5,7 @@ ENV NODE_VERSION 14.3.0
 WORKDIR '/app'
 
 COPY package.json .
-RUN npm install pwd
+RUN npm install
 
 COPY . .
 
